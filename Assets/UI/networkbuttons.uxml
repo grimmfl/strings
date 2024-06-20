@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <ui:VisualElement name="ButtonContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 60px; height: 30px; max-height: 30px; max-width: 60px;">
+            <ui:Button text="Host" display-tooltip-when-elided="true" name="HostButton" style="height: 15px;" />
+            <ui:Button text="Client" display-tooltip-when-elided="true" name="ClientButton" style="height: 15px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
